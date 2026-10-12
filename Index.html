@@ -1,0 +1,94 @@
+<!-- شريط التنقل -->
+<nav class="bg-white/80 backdrop-blur-md border-b border-slate-200 sticky top-0 z-50 px-6 py-4 flex justify-between items-center shadow-xs">
+    <div class="font-bold text-lg text-indigo-600 flex items-center gap-2">
+        📚 مكتبتي الرقمية
+    </div>
+    <a href="#library" class="bg-indigo-600 text-white px-4 py-2 rounded-xl text-sm font-medium hover:bg-indigo-700 transition shadow-sm">تصفح المكتبة</a>
+</nav>
+
+<!-- الواجهة الرئيسية -->
+<header class="bg-gradient-to-br from-indigo-900 via-slate-900 to-indigo-950 text-white py-20 px-6 text-center relative overflow-hidden">
+    <div class="max-w-3xl mx-auto relative z-10">
+        <span class="bg-indigo-800/80 text-indigo-200 text-xs px-3.5 py-1.5 rounded-full font-semibold border border-indigo-700/50">بوابة المعرفة والإبداع</span>
+        <h1 class="text-3xl md:text-5xl font-extrabold mt-4 leading-tight">مكتبتك الرقمية الشاملة للمصادر التعليمية</h1>
+        <p class="mt-4 text-slate-300 text-sm md:text-base leading-relaxed">
+            تصفحي أحدث الكتب، التوقعات الدراسية، والملفات التعليمية بكل سهولة وبأعلى تنظيم بصري.
+        </p>
+    </div>
+</header>
+
+<!-- قسم عرض الكتب والملفات (بطاقات جذابة مع صور تعبيرية) -->
+<main id="library" class="py-16 px-6 max-w-6xl mx-auto">
+    <div class="mb-10 text-right">
+        <h2 class="text-2xl font-bold text-slate-900">الكتب والملفات المتاحة للتصفح</h2>
+        <p class="text-slate-500 text-sm mt-1">اضغط على الملف لعرضه أو تحميله مباشرة.</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8">
+        
+        <!-- بطاقة الكتاب الأول (توقعات الكيمياء) -->
+        <div class="bg-white rounded-2xl border border-slate-200/80 shadow-xs hover:shadow-lg transition overflow-hidden flex flex-col justify-between group">
+            <div>
+                <!-- صورة تعبيرية جذابة للبطاقة -->
+                <div class="h-44 bg-gradient-to-r from-blue-600 to-indigo-700 flex items-center justify-center text-white text-5xl group-hover:scale-105 transition duration-500">
+                    🧪
+                </div>
+                <div class="p-6">
+                    <span class="bg-blue-50 text-blue-700 text-xs px-2.5 py-1 rounded-md font-bold">ملف PDF</span>
+                    <h3 class="text-lg font-bold text-slate-900 mt-3">توقعات الكيمياء</h3>
+                    <p class="text-slate-600 text-sm mt-2 leading-relaxed">ملف شامل يضم أهم التوقعات والأسئلة المراجعة لمادة الكيمياء.</p>
+                </div>
+            </div>
+            <div class="p-6 pt-0">
+                <a href="توقعات الكيمياء.pdf" target="_blank" class="w-full bg-slate-100 hover:bg-indigo-600 hover:text-white text-slate-700 text-center py-2.5 rounded-xl font-semibold text-sm transition block">
+                    📖 تصفح أو تحميل الملف
+                </a>
+            </div>
+        </div>
+
+        <!-- بطاقة إضافية (القصص الهادفة) -->
+        <div class="bg-white rounded-2xl border border-slate-200/80 shadow-xs hover:shadow-lg transition overflow-hidden flex flex-col justify-between group">
+            <div>
+                <div class="h-44 bg-gradient-to-r from-emerald-600 to-teal-700 flex items-center justify-center text-white text-5xl group-hover:scale-105 transition duration-500">
+                    📖
+                </div>
+                <div class="p-6">
+                    <span class="bg-emerald-50 text-emerald-700 text-xs px-2.5 py-1 rounded-md font-bold">محتوى تربوي</span>
+                    <h3 class="text-lg font-bold text-slate-900 mt-3">القصص الهادفة</h3>
+                    <p class="text-slate-600 text-sm mt-2 leading-relaxed">مجموعة من القصص التربوية والملهمة لتنمية المهارات والقيم.</p>
+                </div>
+            </div>
+            <div class="p-6 pt-0">
+                <a href="القصص الهادفة" target="_blank" class="w-full bg-slate-100 hover:bg-indigo-600 hover:text-white text-slate-700 text-center py-2.5 rounded-xl font-semibold text-sm transition block">
+                    📂 استعراض الملفات
+                </a>
+            </div>
+        </div>
+
+        <!-- بطاقة إضافية (أهم الاستراتيجيات الفعالة) -->
+      <div class="bg-white rounded-2xl border border-slate-200/80 shadow-xs hover:shadow-lg transition overflow-hidden flex flex-col justify-between group">
+            <div>
+                <div class="h-44 bg-gradient-to-r from-amber-500 to-orange-600 flex items-center justify-center text-white text-5xl group-hover:scale-105 transition duration-500">
+                    💡
+                </div>
+                <div class="p-6">
+                    <span class="bg-amber-50 text-amber-700 text-xs px-2.5 py-1 rounded-md font-bold">عروض تقديمية</span>
+                    <h3 class="text-lg font-bold text-slate-900 mt-3">استراتيجيات الإدارة الفعالة</h3>
+                    <p class="text-slate-600 text-sm mt-2 leading-relaxed">أهم الاستراتيجيات والأساليب الحديثة لتطوير الأداء المهني.</p>
+                </div>
+            </div>
+            <div class="p-6 pt-0">
+                <a href="#" class="w-full bg-slate-100 hover:bg-indigo-600 hover:text-white text-slate-700 text-center py-2.5 rounded-xl font-semibold text-sm transition block">
+                    📊 تحميل العرض
+                </a>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+<!-- التذييل -->
+<footer class="bg-white border-t border-slate-200 py-8 text-center text-sm text-slate-500">
+    <p>تم تصميم هذه المكتبة الرقمية لخدمة العملية التعليمية بكل سلاسة.</p>
+    <p class="text-xs mt-1">جميع الحقوق محفوظة © 2026</p>
+</footer>
